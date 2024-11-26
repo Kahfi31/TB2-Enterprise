@@ -12,7 +12,7 @@ body {
 
 /* Sidebar Style */
 .sidebar {
-    width: 220px; /* Reduced from 250px */
+    width: 250px; /* Reduced from 250px */
     background-color: #2c3e50;
     color: white;
     padding: 15px; /* Reduced padding */
@@ -22,8 +22,8 @@ body {
 
 .sidebar h2 {
     text-align: center;
-    margin-bottom: 15px; /* Reduced margin */
-    font-size: 20px; /* Smaller font size */
+    margin-bottom: 50px; /* Reduced margin */
+    font-size: 30px; /* Smaller font size */
 }
 
 .sidebar ul {
@@ -32,13 +32,13 @@ body {
 }
 
 .sidebar ul li {
-    margin: 25px 0; /* Reduced margin */
+    margin: 30px 0; /* Reduced margin */
 }
 
 .sidebar ul li a {
     color: white;
     text-decoration: none;
-    font-size: 16px; /* Smaller font size */
+    font-size: 20px; /* Smaller font size */
 }
 
 .sidebar ul li a:hover {
@@ -47,7 +47,7 @@ body {
 
 /* Main Content */
 .main-content {
-    margin-left: 200px; /* Match sidebar width */
+    margin-left: 250px; /* Match sidebar width */
     padding: 15px; /* Reduced padding */
     background-color: #ecf0f1;
     min-height: 100vh;
@@ -73,7 +73,7 @@ header h1 {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px; /* Reduced gap */
-    margin-bottom: 15px; /* Reduced margin */
+    margin-bottom: 30px; /* Reduced margin */
 }
 
 .card {
